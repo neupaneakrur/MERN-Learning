@@ -23,7 +23,7 @@ function incrementCounter (){
     const li = document.createElement('li');
     const textNode = document.createTextNode('Senetence'+ count)
     li.appendChild(textNode)
-
+    
     //append the element
     ulElement.appendChild(li)
 }
